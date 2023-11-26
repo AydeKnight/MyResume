@@ -176,7 +176,7 @@ h1,h2,h3,h4,h5
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 120px;
-        padding-bottom: 140px;
+        padding-bottom: 200px;
         text-align: center;
 	}
 #home h1
@@ -201,7 +201,7 @@ h1,h2,h3,h4,h5
         font-weight: bold;
         width: 180px;
         height: 60px;
-        margin-top: 40px;
+        margin-top: 50px;
         padding-top: 18px;
         transition: all 0.4s ease-in-out;
     }
@@ -529,3 +529,4 @@ footer hr
 .experience .exp-col p {
     margin: 0;
 }
+
