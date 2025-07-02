@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Arpith - Free Responsive Template</title>
+		<title>Arpith - Resume</title>
 		<meta name="keywords" content="">
 		<meta name="description" content="">
         <meta name="author" content="templatemo">
@@ -35,17 +35,43 @@
 	<div id="fullpage">
 
 		<!-- start home -->
-		<div id="home" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-2"></div>
-					<div class="col-md-8 wow fadeIn" data-wow-delay="0.9s">
-						<h3>I am</h3>
-						<h1>Arpith Baiju</h1>
-						<h2 class="rotate">FRONT-END Developer, WEB APP &AMP; WEBSITE Developer, Full Stack Web Developer</h2>
-						<a href="#work" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Get started</a>
+		<div id="home" class="section hero-bg">
+			<div class="container position-relative">
+				<div class="row justify-content-center">
+					<div class="col-lg-10 mx-auto">
+						<div class="row g-0 align-items-stretch hero-main-row">
+							<!-- Profile/Main Card -->
+							<div class="col-md-6">
+								<div class="hero-main-card position-relative text-center h-100 d-flex flex-column justify-content-center">
+									<div class="profile-float-img">
+										<img src="images/Me.png" alt="Arpith Baiju" class="profile-float-img-el">
+									</div>
+									<div class="hero-content-card">
+										<h3 class="hero-subtitle">I am</h3>
+										<h1 class="hero-title">Arpith Baiju</h1>
+										<h2 class="hero-subtitle">Technology Consultant</h2>
+										<h2 class="typewriter" id="typewriter"></h2>
+										<a href="#work" class="btn btn-default smoothScroll wow fadeInUp hero-cta" data-wow-delay="1s">
+											Get started <i class="fa fa-arrow-down"></i>
+										</a>
+										<br/>
+										<a href="downloads/ArpithResume25.pdf" download class="btn btn-download-resume">
+											<i class="fa fa-download"></i> Download CV
+										</a>
+									</div>
+								</div>
+							</div>
+							<!-- Achievements Card -->
+							<div class="col-md-6 d-flex align-items-center">
+								<div class="achievements-card glass-card w-100 text-center">
+									<h3 class="achievements-title">Achievements</h3>
+									<div class="achievements-typewriter achievements-list" id="achievements-list">
+										<!-- Achievements will be typed here -->
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-2"></div>
 				</div>
 			</div>
 		</div>
@@ -80,7 +106,7 @@
 							</div>
 							<div class="media-body">
 								<h3 class="media-heading">Web Development</h3>
-								<p>Have the capability to work in both front-end and back-end and have 2+ years of experince in  React js &AMP; Node.</p>
+								<p>Have the capability to work in both front-end and back-end and have 3+ years of experince in  React js &AMP; Node.</p>
 							</div>
 						</div>
 					</div>
@@ -92,7 +118,7 @@
 							</div>
 							<div class="media-body">
 								<h3 class="media-heading">UI &AMP; UX Design</h3>
-								<p>Have Knowledge in CSS/SCSS, Bootstrap &AMP; html </p>
+								<p>Have Knowledge in CSS/SCSS,Tailwind CSS, Bootstrap &AMP; html </p>
 							</div>
 						</div>
 					</div>
@@ -110,10 +136,12 @@
 						<h2>ABOUT  ARPITH</h2>
 						<h4>FULL STACK DEVELOPER</h4>
 						<p>
-							A Technology Analyst with Two years of experience in React, Node, and CSS with MySQL as a Database. Experienced in using JavaScript, HTML, CSS, React, Redux, Node, MySQL queries, and Sequelize.
-						</p>
-						<p>
-							Worked under Agile methodology, Jira software, and knowledge to use Bitbucket and Git. An excellent team player with good communication and problem-solving skills.
+							Experienced technology analyst with a strong background in full-stack web development,
+							offering over 3.6 years of industry experience. Skilled in a broad range of technologies,
+							including JavaScript, HTML, CSS, React, Redux, Node.js, MySQL,, MariaDB, MongoDB, and
+							AWS services such as Elasticsearch. Proficient in Agile methodologies and adept at utilizing
+							tools like Jira, Bitbucket, and Git. Recognized for collaborative teamwork, exceptional
+							communication skills, and a talent for problem-solving.
 						</p>
 						<div class="i-fa">
 						<p><i class="fa fa-linkedin"></i> <a class="link-fa" href="https://www.linkedin.com/in/arpith-baiju-8688011b7"> https://www.linkedin.com/in/arpith-baiju-8688011b7</a></p>
@@ -155,7 +183,7 @@
 		<!-- end about -->
 
 		<!-- start portfolio -->
-		<!-- <div id="portfolio" class="section">
+		<div id="portfolio" class="section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -163,52 +191,20 @@
 				</div>
 				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
 					<div class="portfolio-thumb">
-						<img src="images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Web Design</h4>
-								<h5>Author: Cindy</h5>
-							</div>
+						<a href="https://aydeknight.github.io/DeepTech/" target="_blank" rel="noopener">
+							<img src="images/project1.png" class="img-responsive portfolio-img-large" alt="portfolio img">
+						</a>
+						<div class="portfolio-info">
+							<h4>DeepTech</h4>
+							<h5>Author: Arpith Baiju</h5>
+						</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Web App</h4>
-								<h5>Author: Linda</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Mobile App</h4>
-								<h5>Author: Kate</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Old Artwork</h4>
-								<h5>Author: Catherine</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img5.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>New Animation</h4>
-								<h5>Author: Kathy</h5>
-							</div>
-					</div>
-				</div>
+				
+				
 			</div>
 		</div>
-	</div> -->
+	</div>
 	<!-- end portfolio -->
 
 		<!-- start Education-->
@@ -257,83 +253,97 @@
 				<!-- start experince-->
 				<div id="experince" class="section">
 					<div class="container">
-						<div class="padd-top">
 						<div class="row">
 							<div class="col-md-12 wow bounce">
-								<h2 class="cen-h">Experince</h2>
+								<h2 class="cen-h">Experience</h2>
 							</div>
-						</div>  
-						
-						<div class="row experience">
-							<div class="row align-items-center">
-								<div class="col-md-6">
-									<div class="exp-col">
-										<span>01-Nov-2022 <i>to</i> 31-Nov-2023</span>
-										<h3>Emvigo Technologies</h3>
-										<h4>Kaloor, Ernakulam, Kerala</h4>
-										<h5>Technology Analyst Level-3</h5>
-										<h4>Project Name : Paragon</h4>
-										<h5>Description:</h5>
-										<p>
-											This is a large platform that handles all the Meter Asset Companies (assets like Gas meters and electric meters) to track their assets 
-											and to connect with different companies like suppliers, triage, repatriation and keep all the records and details of their assets within 
-											a Web App across the entire UK. They mainly focus on the admin portals as well as partner applications via which the admin can notify the 
-											partners and their employees with sales details, events, and much more.
-										</p>
-										<h4>Project Role : Paragon</h4>
-										<p>Provided technical and functional recommendations based on project requirements.</p>
-										<p>Supported technology design, testing, and execution by providing Research and Development.</p>
-										<p>Identified system issues and recommended changes to close system holes.</p>
-									</div>
+						</div>
+						<div class="timeline">
+							<!-- Experience Card 1 -->
+							<div class="timeline-item">
+								<div class="timeline-dot"></div>
+								<div class="timeline-content">
+									<span class="timeline-date">31-Oct-2025 <i>to</i> Current</span>
+									<h3>Emvigo Technologies</h3>
+									<h4><i class="fa fa-map-marker"></i> Kaloor, Ernakulam, Kerala</h4>
+									<h5>Technology Consultant Level-1</h5>
+									<h5>Key Responsibilities :</h5>
+									<ul>
+										<li>Provided technical and functional recommendations, and coding based on project requirements.</li>
+										<li>Supported technology design, wireframe, testing, and execution by providing research and development.</li>
+										<li>Identified system issues, and recommended changes to close system holes.</li>
+										<li>Mentoring a junior colleague and Taking live demos with clients.</li>
+										<li>Studied business functions, and evaluated requirements to establish operational objectives.</li>
+										<li>Developed and implemented applications as per the client's needs.</li>
+										<li>Designed and developed databases to store customer information securely.</li>
+									</ul>
 								</div>
-								<div class="col-md-6">
-									<div class="exp-col">
-										<span>01-Nov-2021 <i>to</i> 31-Oct-2022</span>
-										<h3>Emvigo Technologies</h3>
-										<h4>Kaloor, Ernakulam, Kerala</h4>
-										<h5>Technology Analyst Level-1</h5>
-										<h4>Project Name : Paragon</h4>
-										<h5>Description:</h5>
-										<p>
-											This is a large platform that handles all the Meter Asset Companies (assets like Gas meters and electric meters) to track their assets 
-											and to connect with different companies like suppliers, triage, repatriation and keep all the records and details of their assets within 
-											a Web App across the entire UK. They mainly focus on the admin portals as well as partner applications via which the admin can notify the 
-											partners and their employees with sales details, events, and much more.
-										</p>
-										<h4>Project Role : Paragon</h4>
-										<p>Junior web developer with React, redux, node, JavaScript, and CSS knowledge.</p>
-										<p>Learning Business aspects of the project, working with Agile methodology and Jira Software.</p>
-									</div>
+							</div>
+							<!-- Experience Card 2 -->
+							<div class="timeline-item">
+								<div class="timeline-dot"></div>
+								<div class="timeline-content">
+									<span class="timeline-date">01-Nov-2022 <i>to</i> 31-Oct-2024</span>
+									<h3>Emvigo Technologies</h3>
+									<h4><i class="fa fa-map-marker"></i> Kaloor, Ernakulam, Kerala</h4>
+									<h5>Technology Analyst Level-3</h5>
+									<h4>Project Name : Paragon</h4>
+									<h5>Description:</h5>
+									<p>This is a large platform that handles all the Meter Asset Companies (assets like Gas meters and electric meters) to track their assets and to connect with different companies like suppliers, triage, repatriation and keep all the records and details of their assets within a Web App across the entire UK. They mainly focus on the admin portals as well as partner applications via which the admin can notify the partners and their employees with sales details, events, and much more.</p>
+									<h4>Project Role : Senior Developer</h4>
+									<ul>
+										<li>Provided technical and functional recommendations based on project requirements.</li>
+										<li>Supported technology design, testing, and execution by providing Research and Development.</li>
+										<li>Identified system issues and recommended changes to close system holes.</li>
+									</ul>
+								</div>
+							</div>
+							<!-- Experience Card 3 -->
+							<div class="timeline-item">
+								<div class="timeline-dot"></div>
+								<div class="timeline-content">
+									<span class="timeline-date">01-Nov-2021 <i>to</i> 31-Oct-2022</span>
+									<h3>Emvigo Technologies</h3>
+									<h4><i class="fa fa-map-marker"></i> Kaloor, Ernakulam, Kerala</h4>
+									<h5>Technology Analyst Level-1</h5>
+									<h4>Project Name : Paragon</h4>
+									<h5>Description:</h5>
+									<p>This is a large platform that handles all the Meter Asset Companies (assets like Gas meters and electric meters) to track their assets and to connect with different companies like suppliers, triage, repatriation and keep all the records and details of their assets within a Web App across the entire UK. They mainly focus on the admin portals as well as partner applications via which the admin can notify the partners and their employees with sales details, events, and much more.</p>
+									<h4>Project Role : Junior Developer</h4>
+									<ul>
+										<li>Junior web developer with React, redux, node, JavaScript, and CSS knowledge.</li>
+										<li>Learning Business aspects of the project, working with Agile methodology and Jira Software.</li>
+									</ul>
 								</div>
 							</div>
 						</div>
-					</div>
 					</div>
 				</div>
 				<!-- end experince-->
 		<!-- start contact -->
 		<div id="contact" class="section">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-5 col-lg-offset-1 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-						<address>
-							<p class="contact-title">CONTACT ME</p>
-							<p><i class="fa fa-phone"></i> 9961551330</p>
-							<p><i class="fa fa-envelope-o"></i> arpithbethel35@gmail.com</p>
-							<p><i class="fa fa-map-marker"></i> Eyyonathu Bethel Panaveli PO Kottarakkara,
-								<span class="pad" > Kollam, Kerala, 691532</span>
-							</p>
-						</address>
+				<div class="row justify-content-center">
+					<div class="col-lg-6 col-md-8 wow fadeInUp" data-wow-delay="0.6s">
+						<div class="contact-card">
+							<h3 class="contact-title">CONTACT ME</h3>
+							<ul class="contact-list">
+								<li>
+									<i class="fa fa-phone"></i>
+									<a href="tel:9961551330">9961551330</a>
+								</li>
+								<li>
+									<i class="fa fa-envelope-o"></i>
+									<a href="mailto:arpithbethel35@gmail.com">arpithbethel35@gmail.com</a>
+								</li>
+								<li>
+									<i class="fa fa-map-marker"></i>
+									Eyyonathu Bethel Panaveli PO Kottarakkara,
+									<span class="pad">Kollam, Kerala, 691532</span>
+								</li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-xs-10 wow fadeInUp" data-wow-delay="0.6s">
-						<form role="form" method="post" action="#">
-							<input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
-							<input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
-							<textarea name="message" rows="5" class="form-control" id="message" placeholder="Your Message"></textarea>
-							<input name="send" type="submit" class="form-control" id="send" value="SEND ME">
-						</form>
-					</div>
-					<div class="col-md-1 col-sm-1"></div>
 				</div>
 			</div>
 		</div>
@@ -350,8 +360,8 @@
 						<hr>
 						<ul class="social-icon">
 							<li><a href="#linked-in" class="fa fa-linkedin"></a></li>
-							<li><a href="#" class="fa fa-whatsapp"></a></li>
-							<li><a href="#" class="fa fa-instagram"></a></li>
+							<li><a href="https://www.whatsapp.com/" class="fa fa-whatsapp"></a></li>
+							<li><a href="https://www.instagram.com/accounts/login/?hl=en" class="fa fa-instagram"></a></li>
 						</ul>
 					</div>
 				</div>
@@ -375,6 +385,68 @@
 		<script src="js/jquery.simple-text-rotator.js"></script>
 		<!-- custom -->
 		<script src="js/custom.js"></script>
+
+		<script>
+		// Main typewriter for roles
+		const roles = [
+			'FRONT-END Developer',
+			'WEB APP & WEBSITE Developer',
+			'Full Stack Web Developer'
+		];
+		let i = 0, j = 0, current = '', isDeleting = false, speed = 100;
+		function type() {
+			const el = document.getElementById('typewriter');
+			if (!el) return;
+			if (!isDeleting && j <= roles[i].length) {
+				current = roles[i].substring(0, j++);
+				el.textContent = current;
+				setTimeout(type, speed);
+			} else if (isDeleting && j >= 0) {
+				current = roles[i].substring(0, j--);
+				el.textContent = current;
+				setTimeout(type, speed / 2);
+			} else {
+				isDeleting = !isDeleting;
+				if (!isDeleting) i = (i + 1) % roles.length;
+				setTimeout(type, 1000);
+			}
+		}
+		document.addEventListener('DOMContentLoaded', type);
+
+		// Achievements typewriter (line by line, no deleting)
+		const achievements = [
+			'First Prize in EM-Hack, organized by the company Emvigo Technologies, on 06/01/22.',
+			'Emvigo Technologies organized a 24-hour hackathon program for employees. Our team of five individuals came up with a concept (Life Care) and developed a web app and a mobile app.',
+			'Team Player Badges: I got a Team Player badge two times in a row during the award functions.',
+			'Received the "Good Job" badge for exceptional performance on my project.',
+			'Mentored a junior developers to success.',
+			'Team Player Award – Recognized as the Team Player for the Half-Yearly Award (April–September 2024).',
+			'Received the "Good Job" badge for exceptional performance on my project.',
+			'Completed React Certification from Udemy.',
+		];
+		let achIndex = 0;
+		function typeAchievementLine() {
+			if (achIndex >= achievements.length) return;
+			const container = document.getElementById('achievements-list');
+			if (!container) return;
+			let text = achievements[achIndex];
+			let span = document.createElement('div');
+			span.className = 'achievement-line';
+			container.appendChild(span);
+			let charIndex = 0;
+			function typeChar() {
+				if (charIndex <= text.length) {
+					span.textContent = text.substring(0, charIndex++);
+					setTimeout(typeChar, 24);
+				} else {
+					achIndex++;
+					setTimeout(typeAchievementLine, 600);
+				}
+			}
+			typeChar();
+		}
+		document.addEventListener('DOMContentLoaded', typeAchievementLine);
+		</script>
 
 	</body>
 </html>
